@@ -13,7 +13,7 @@ module.exports = {
             explorerUrl: "https://explorer.mainnet.near.org",
             refFinanceContractId: "v2.ref-finance.near",
             priceOracleContractId: "priceoracle.near",
-            burrowContractId: "contract.main.burrow.near",
+            burrowContractId: "usn.near",
             accountId: process.env.NEAR_ACCOUNT_ID,
             wrapNearAccountId: "wrap.near",
           };
@@ -27,7 +27,7 @@ module.exports = {
             explorerUrl: "https://explorer.testnet.near.org",
             refFinanceContractId: "ref-finance-101.testnet",
             priceOracleContractId: "priceoracle.testnet",
-            burrowContractId: "contract.1638481328.burrow.testnet",
+            burrowContractId: "usdn.testnet",
             accountId: process.env.NEAR_ACCOUNT_ID,
             wrapNearAccountId: "wrap.testnet",
           };
